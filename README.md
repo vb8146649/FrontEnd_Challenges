@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github_link]()
-- Live Site URL: [live_site]()
+- Solution URL: [github_link](https://github.com/vb8146649/blog-preview-card-main/)
+- Live Site URL: [live_site](https://vb8146649.github.io/blog-preview-card-main/)
 
 ## My process
 Try & Build Approach
