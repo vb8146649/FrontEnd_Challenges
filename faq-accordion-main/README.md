@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github_link](https://github.com/vb8146649/faq-accordion-main)
-- Live Site URL: [live_site](https://vb8146649.github.io/faq-accordion-main/)
+- Solution URL: [github_link](https://github.com/vb8146649/FrontEnd_Challenges/faq-accordion-main)
+- Live Site URL: [live_site](https://vb8146649.github.io/FrontEnd_Challenges/faq-accordion-main/)
 
 ## My process
 Have Built using only css and html cause of detail tag in html which behave the same way .

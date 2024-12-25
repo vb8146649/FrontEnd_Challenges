@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="./output.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-[14px] bg-cream h-screen flex items-center flex-col justify-center">
+  <main class="bg-white font-montserrat mx-3.5 my-auto rounded-2xl max-w-[400px] sm:max-w-[700px] sm:grid-cols-2 sm:grid max-h-[900px] sm:h-fit  text-dark-grayish-blue">
+    <div class="h-[200px] sm:bg-[url('./images/image-product-desktop.jpg')] bg-[url('./images/image-product-mobile.jpg')] bg-no-repeat bg-cover bg-center rounded-t-2xl sm:rounded-2xl sm:h-auto"></div>
+    <div class="p-10">
+
+      <p class="uppercase tracking-[5px]">Perfume</p>
+      
+      <h1 class="font-fraunces font-bold text-3xl py-8 text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
+      <p>
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <p class="font-fraunces flex flex-row items-center py-8">
+        <span class="text-dark-cyan grow text-3xl font-bold">$149.99</span>
+        <span class="line-through ">$169.99</span>
+      </p>
+      <div class="p-5 hover:bg-green-900 bg-dark-cyan text-white flex items-center justify-center font-bold rounded-2xl">
+        <div class="bg-[url('./images/icon-cart.svg')] w-[32px] h-[32px] bg-no-repeat bg-center "></div>
+        <a href="">Add to Cart</a>
+      </div>
+    </div>
+  </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/vb8146649/portfolio">Vishal</a>.
+    </div>
+  </body>
+  </html>
+  

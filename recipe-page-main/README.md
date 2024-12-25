@@ -21,8 +21,8 @@ This is a simple static website , that is build purely from html and css .
 
 ### Links
 
-- Solution URL: [github_link](https://github.com/vb8146649/recipe-page-main)
-- Live Site URL: [recipe_page](https://vb8146649.github.io/recipe-page-main/)
+- Solution URL: [github_link](https://github.com/vb8146649/FrontEnd_Challenges/recipe-page-main)
+- Live Site URL: [recipe_page](https://vb8146649.github.io/FrontEnd_Challenges/recipe-page-main/)
 
 ## My process
 just compaired what matched with the preview of the given website still , I completed it .

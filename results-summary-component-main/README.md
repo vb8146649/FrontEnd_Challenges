@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github_link]()
-- Live Site URL: [live_site]()
+- Solution URL: [github_link](https://github.com/vb8146649/FrontEnd_Challenges/results-summary-component-main)
+- Live Site URL: [live_site](https://vb8146649.github.io/FrontEnd_Challenges/results-summary-component-main/)
 
 ## My process
 
