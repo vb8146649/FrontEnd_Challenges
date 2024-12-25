@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github_link](https://github.com/vb8146649/social-links-profile-main)
-- Live Site URL: [live_site](https://vb8146649.github.io/social-links-profile-main/)
+- Solution URL: [github_link](https://github.com/vb8146649/FrontEnd_Challenges/social-links-profile-main)
+- Live Site URL: [live_site](https://vb8146649.github.io/FrontEnd_Challenges/social-links-profile-main/)
 
 ## My process
 Try and Build Approach
