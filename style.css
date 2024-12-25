@@ -1,0 +1,89 @@
+/* Import the variable width font */
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Define the weight range for the variable font */
+    font-style: normal;   /* Normal style for non-italic font */
+}
+
+/* Import the italic font */
+@font-face {
+    font-family: 'Figtree';
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Define the weight range for the variable font */
+    font-style: italic;   /* Italic style */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:  hsl(47, 88%, 63%);
+    font-family: Figtree;
+    font-size: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    border: 2px solid black;
+    max-width: 400px;
+    width: 80%;
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5%;
+    box-shadow: 5px 5px ;
+}
+@media(min-width:600px){
+    main{
+        padding: 30px;
+        box-shadow: 10px 10px;
+    }
+}
+svg{
+    width: 100%;
+    height:100%;
+    /* min-width: 300px; */
+    object-fit: contain;
+    border-radius: 20px;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+}
+.card-header a{
+    margin: 20px 0px 15px 0px;
+    background: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 8px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.card-title{
+    font-size: 24px;
+    margin: 20px 0px;
+    font-weight: 800;
+}
+.card-title a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.card-footer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    & img{
+        margin-right: 10px;
+        width: 32px;
+    }
+}
+a{
+    color: black;
+    text-decoration: none;
+}
