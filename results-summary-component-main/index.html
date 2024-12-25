@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link href="./output.css" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="flex flex-col h-screen">
+  <main class="font-hanken-grotesk md:m-auto grid md:grid-cols-2 md:max-w-[700px] font-medium box-border md:rounded-3xl md:shadow-[2px_20px_30px_rgba(0,0,153,0.2)]">
+    <section class="text-center rounded-b-3xl md:rounded-t-3xl px-10 bg-gradient-to-b pb-3.5 flex flex-col from-light-slate-blue to-light-royal-blue text-white">
+      <p class="text-lg font-bold my-5">Your Result</p>
+      <div class="circle m-auto w-36 h-36 p-10 justify-center rounded-full bg-gradient-to-t from-persian-blue to-violet-blue">
+        <div class="score font-extrabold text-6xl">76</div>
+        <p class="text-white/60">of 100</p>
+      </div>
+      <h2 class="font-bold text-2xl mt-5">Great</h2>
+      <p class="text-white/90">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="flex flex-col m-7 space-y-5">
+      <h1 class="text-lg font-bold">Summary</h1>
+      <a class=" p-4 bg-light-red/10 flex flex-row justify-between rounded-md" href="">
+        <div class=" flex justify-center text-light-red "><div class="bg-reaction bg-no-repeat bg-cover h-5 w-5 me-3"></div> Reaction</div>
+        <div class="text-black/40"><strong class="text-black">80</strong> / 100</div>
+      </a>
+      <a class=" p-4 bg-orangey-yellow/10 flex flex-row justify-between rounded-md" href="">
+        <div class=" flex justify-center text-orangey-yellow "><div class="bg-memory bg-no-repeat bg-cover h-5 w-5 me-3"></div> Memory</div>
+        <div class="text-black/40"><strong class="text-black">92</strong> / 100</div>
+      </a>
+      <a class=" p-4 bg-green-teal/10 flex flex-row justify-between rounded-md" href="">
+        <div class=" flex justify-center text-green-teal "><div class="bg-verbal bg-no-repeat bg-cover h-5 w-5 me-3"></div> Verbal</div>
+        <div class="text-black/40"><strong class="text-black">61</strong> / 100</div>
+      </a>
+      <a class=" p-4 bg-cobalt-blue/10 flex flex-row justify-between rounded-md" href="">
+        <div class=" flex justify-center text-cobalt-blue "><div class="bg-visual bg-no-repeat bg-cover h-5 w-5 me-3"></div> Visual</div>
+        <div class="text-black/40"><strong class="text-black">72</strong> / 100</div>
+      </a>
+      <a class="bg-dark-gray-blue text-white text-center p-4 rounded-full hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue" href="">Continue</a>
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
