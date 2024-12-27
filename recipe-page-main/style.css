@@ -1,64 +1,6 @@
 @font-face {
     font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Black.ttf') format('truetype');
-    font-weight: 900; /* Extra bold */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
-    font-weight: 700; /* Bold */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-ExtraBold.ttf') format('truetype');
-    font-weight: 800; /* Extra bold */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-ExtraLight.ttf') format('truetype');
-    font-weight: 200; /* Extra light */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Light.ttf') format('truetype');
-    font-weight: 300; /* Light */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Medium.ttf') format('truetype');
-    font-weight: 500; /* Medium */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
-    font-weight: 400; /* Regular */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
-    font-weight: 600; /* Semi bold */
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('assets/fonts/outfit/static/Outfit-Thin.ttf') format('truetype');
-    font-weight: 100; /* Thin */
-    font-style: normal;
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
@@ -71,18 +13,16 @@
     padding: 0;
 }
 
-body , html{
-    background: #ebc51b1e;
+body{
+    background: hsl(30, 54%, 90%);
     font-family: Outfit;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.63);
-}
-
-body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 ul,ol {
@@ -92,25 +32,29 @@ li{
     line-height: 30px;
 }
 .preparation ul li::marker{
-    color: purple;
+    color: hsl(332, 51%, 32%);
 }
 li::marker{
-    color: brown;
+    color: hsl(14, 45%, 36%);
 }
 .recipe{
     padding: 20px 30px;
 }
-h3{
-    font-weight: 600;
-    color: purple;
-    margin-bottom: 15px;
-}
+
 h2{
-    color: brown;
+    color: hsl(14, 45%, 36%);
     font-family: YoungSerifRegular;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 2rem;
     margin: 20px 0px;
+}
+
+.preparation h2{
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 15px 0px;
 }
 .items{
     margin: 20px 0px;
@@ -118,7 +62,7 @@ h2{
 .preparation{
     margin:25px 0px;
     padding: 12px 30px 20px 30px; 
-    background: #f59bf823;
+    background: hsl(330, 100%, 98%);
     border-radius: 15px;
 }
 
@@ -143,7 +87,9 @@ table{
     border-collapse: collapse;
 }
 
+
 th,td{
+    text-align: left;
     padding: 7px 10px 10px 30px;
 }
 
@@ -152,13 +98,17 @@ tr{
 }
 
 th{
-    float: left;
+    font-weight:400;
+}
+
+td{ 
+    font-weight: 700;
     color: brown;
 } 
 
-@media(min-width:600px){
+@media(min-width:40rem){
     main{
-        max-width: 1000px;
+        max-width: 50rem;
         margin: 5%;
         border-radius: 20px;
     }
