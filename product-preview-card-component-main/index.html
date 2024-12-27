@@ -14,35 +14,38 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: underline; }
   </style>
 </head>
-<body class="text-[14px] bg-cream h-screen flex items-center flex-col justify-center">
-  <main class="bg-white font-montserrat mx-3.5 my-auto rounded-2xl max-w-[400px] sm:max-w-[700px] sm:grid-cols-2 sm:grid max-h-[900px] sm:h-fit  text-dark-grayish-blue">
-    <div class="h-[200px] sm:bg-[url('./images/image-product-desktop.jpg')] bg-[url('./images/image-product-mobile.jpg')] bg-no-repeat bg-cover bg-center rounded-t-2xl sm:rounded-2xl sm:h-auto"></div>
-    <div class="p-10">
-
-      <p class="uppercase tracking-[5px]">Perfume</p>
-      
-      <h1 class="font-fraunces font-bold text-3xl py-8 text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
-      <p>
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-      <p class="font-fraunces flex flex-row items-center py-8">
-        <span class="text-dark-cyan grow text-3xl font-bold">$149.99</span>
-        <span class="line-through ">$169.99</span>
-      </p>
-      <div class="p-5 hover:bg-green-900 bg-dark-cyan text-white flex items-center justify-center font-bold rounded-2xl">
-        <div class="bg-[url('./images/icon-cart.svg')] w-[32px] h-[32px] bg-no-repeat bg-center "></div>
-        <a href="">Add to Cart</a>
+<body class="text-[1rem] p-5 bg-cream h-screen flex flex-col">
+  <main class=" flex flex-grow justify-center items-center font-montserrat ">
+    <div class="bg-white rounded-2xl sm:max-w-[37.5rem] max-w-[24rem] sm:grid-cols-2 sm:grid  text-dark-grayish-blue" id="product-card">
+      <div class="h-[200px] sm:bg-[url('./images/image-product-desktop.jpg')] bg-[url('./images/image-product-mobile.jpg')] bg-no-repeat bg-cover bg-center rounded-t-2xl sm:rounded-2xl sm:h-full"></div>
+      <div class="p-10">
+        <p class="uppercase tracking-[0.4rem]">Perfume</p>
+        <h1 class="font-fraunces font-bold text-3xl py-8 text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p class="font-fraunces flex flex-row items-center py-8">
+          <span class="text-dark-cyan grow text-3xl font-bold">$149.99</span>
+          <span class="line-through ">$169.99</span>
+        </p>
+        <a href="#" class="p-5 hover:bg-green-900 bg-dark-cyan text-white flex items-center justify-center font-bold rounded-2xl">
+          <svg width="15" height="16" class="me-2" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>
+          <!-- <div class="bg-[url('./images/icon-cart.svg')] w-[32px] h-[32px] bg-no-repeat bg-center "></div> -->
+          Add to Cart
+        </a>
       </div>
     </div>
   </main>
+  <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/vb8146649/portfolio">Vishal</a>.
     </div>
+  </footer>
   </body>
   </html>
   
