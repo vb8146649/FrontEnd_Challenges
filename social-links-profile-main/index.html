@@ -11,25 +11,29 @@
   <link rel="stylesheet" href="output.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @font-face {
+      font-family: 'Inter';
+      src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); text-decoration: underline; }
   </style>
 </head>
-<body class="flex flex-col h-screen p-5 bg-[hsl(0,0%,8%)] text-[1rem] font-['Inter']">
+<body class="flex flex-col min-h-screen  p-5 bg-[hsl(0,0%,8%)] text-[1rem] font-['Inter']">
   <main class="flex-grow flex justify-center items-center">
-    <div class="text-white leading-[2rem] bg-[hsl(0,0%,12%)] w-[20rem] flex-col flex items-center text-center p-5 rounded-xl" id="social card">
-      <img src="assets/images/avatar-jessica.jpeg" alt="" class="w-1/3 rounded-full"/>
+    <div class="text-white leading-[2rem] bg-[hsl(0,0%,12%)] max-w-[20rem] text-center p-5 rounded-xl" id="social card">
+      <img src="assets/images/avatar-jessica.jpeg" alt="" class="w-1/3 mx-auto rounded-full"/>
       <h1 class="font-bold mt-4 text-3xl ">
         Jessica Randall
       </h1>
       <p class="text-[hsl(75,94%,57%)] font-bold leading-[2rem]">London, United Kingdom</p>
       <blockquote class="mt-2">"Front-end developer and avid reader."</blockquote>
       <ul id="skills" class="w-full font-bold">
-        <li class="bg-[hsl(0,0%,20%)] mt-5 rounded-lg p-[5px] hover:bg-[hsl(75,94%,57%)] hover:text-black "><a href="">GitHub</a></li>
-        <li class="bg-[hsl(0,0%,20%)] mt-5 rounded-lg p-[5px] hover:bg-[hsl(75,94%,57%)] hover:text-black "><a href="">Frontend Mentor</a></li>
-        <li class="bg-[hsl(0,0%,20%)] mt-5 rounded-lg p-[5px] hover:bg-[hsl(75,94%,57%)] hover:text-black "><a href="">LinkedIn</a></li>
-        <li class="bg-[hsl(0,0%,20%)] mt-5 rounded-lg p-[5px] hover:bg-[hsl(75,94%,57%)] hover:text-black "><a href="">Twitter</a></li>
-        <li class="bg-[hsl(0,0%,20%)] mt-5 rounded-lg p-[5px] hover:bg-[hsl(75,94%,57%)] hover:text-black "><a href="">Instagram</a></li>
+        <li class="mt-5"><a class="bg-[hsl(0,0%,20%)] block rounded-lg p-[0.75rem] hover:bg-[hsl(75,94%,57%)] hover:text-black" href="">GitHub</a></li>
+        <li class="mt-5"><a class="bg-[hsl(0,0%,20%)] block rounded-lg p-[0.75rem] hover:bg-[hsl(75,94%,57%)] hover:text-black" href="">Frontend Mentor</a></li>
+        <li class="mt-5"><a class="bg-[hsl(0,0%,20%)] block rounded-lg p-[0.75rem] hover:bg-[hsl(75,94%,57%)] hover:text-black" href="">LinkedIn</a></li>
+        <li class="mt-5"><a class="bg-[hsl(0,0%,20%)] block rounded-lg p-[0.75rem] hover:bg-[hsl(75,94%,57%)] hover:text-black" href="">Twitter</a></li>
+        <li class="mt-5"><a class="bg-[hsl(0,0%,20%)] block rounded-lg p-[0.75rem] hover:bg-[hsl(75,94%,57%)] hover:text-black" href="">Instagram</a></li>
       </ul>
     </div>
   </main>
