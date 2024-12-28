@@ -20,7 +20,10 @@
 <body class="text-[1rem] p-5 bg-cream h-screen flex flex-col">
   <main class=" flex flex-grow justify-center items-center font-montserrat ">
     <div class="bg-white rounded-2xl sm:max-w-[37.5rem] max-w-[24rem] sm:grid-cols-2 sm:grid  text-dark-grayish-blue" id="product-card">
-      <div class="h-[200px] sm:bg-[url('./images/image-product-desktop.jpg')] bg-[url('./images/image-product-mobile.jpg')] bg-no-repeat bg-cover bg-center rounded-t-2xl sm:rounded-2xl sm:h-full"></div>
+      <picture >
+        <source media="(min-width: 40rem)" srcset="images/image-product-desktop.jpg">
+        <img src="images/image-product-mobile.jpg" class="bg-no-repeat object-cover h-full rounded-t-2xl sm:rounded-2xl " alt="">
+      </picture>
       <div class="p-10">
         <p class="uppercase tracking-[0.4rem]">Perfume</p>
         <h1 class="font-fraunces font-bold text-3xl py-8 text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
